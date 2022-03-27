@@ -1,0 +1,39 @@
+p, ul, ol{
+	color: blue;
+	font-weight: bold;
+	font-size: 14pt;
+	font-family: courier;
+}
+
+.titulo36{
+	background: aqua;
+	border-radius: 15px;
+	color: red;
+	font-size: 36pt;
+	width: 90%;
+}
+
+#subtitulo{
+	font-size: 24pt;
+	width: 80%;
+}
+
+.boton{
+	background: limegreen;
+	border-radius: 10px;
+	color: white;
+	font-size: 14pt;
+	font-weight: bold;
+	width: 150px;
+}
+
+.boton:hover{
+	background: white;
+	color: lime;
+}
+
+/*Cuando se habla del tamaño existen varias formas para definirlo:  ;
+- pt (puntos) equivalente a word
+- em (emes) "M" se considera que la letra mas grande en texto es la M
+- px (pixeles) se puede definir en pixeles cuadrados
+- cms (centimetros) */
